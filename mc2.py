@@ -39,7 +39,7 @@ for n in range(1, N):
         yout.append(y)
         ax.scatter(x, y, c='black', s=5)
     fig.suptitle(f"Monte Carlo method  pi={4*cn/n:.5f}", fontsize=20)
-    plt.pause(0.001)  # 少し待つことでアニメーション表示
+    plt.pause(0.0001)  # 少し待つことでアニメーション表示
 
 plt.ioff()
 plt.show()
